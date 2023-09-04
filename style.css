@@ -1,0 +1,95 @@
+body {
+    background: black;
+    color: #C0C0C0;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+h1 {
+    margin-left: 50px;
+    align-self: center;
+    font-size: 3rem;
+    animation: fadeInSlideUp 8s;
+   
+}
+
+.first {
+    display: flex;
+}
+
+span {
+    color: brown;
+    animation: colorChange 1.5s alternate-reverse infinite;
+}
+
+#gif {
+    height: 600px;
+    width: 600px;
+}
+
+@keyframes colorChange {
+    from {color: brown;}
+    to {color: tomato;}
+}
+
+@keyframes fadeInSlideUp {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.projects {
+    display: flex;
+    margin-top: 100px;
+    color: white;
+    justify-content: space-around;
+}
+
+.calculator,.randomGame>img {
+    height: 150px;
+    border-radius: 10px;
+    float: left;
+}
+
+.calculator, .randomGame {
+    cursor: pointer;
+    padding: 40px;
+    width: 30%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    gap: 10px;
+    border: none;
+    transition: all 0.3s;
+    color: black;
+}
+
+h2 {
+    margin-top: 40px;
+    align-self: center;
+    margin-left: 50px;
+}
+
+p {
+    align-self: center;
+}
+
+.calculator:hover, .randomGame:hover {
+    transform: scale(1.1);
+    
+}.continiued{
+    margin-left: 42%;
+    margin-top: 60px;
+}.contact{
+    display: flex;
+    margin: 30px;
+    font-size: 23px;
+    gap: 20px;
+    align-items: center;
+}.fa-mobile-screen-button{
+    display: flex-end;
+}i:hover{
+    transform: scale(1.1);
+}i{
+    cursor: pointer;
+}.fa-mobile-screen-button{
+    cursor:auto;
+}
